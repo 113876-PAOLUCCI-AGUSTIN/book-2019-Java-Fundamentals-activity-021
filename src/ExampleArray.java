@@ -22,7 +22,7 @@ public class ExampleArray {
         // VARIABLE QUE ALMACENARÁ EL NUMERO MAS CHICO.
         float minNum = myFnumbers[0];
 
-        // FOR QUE RECORRE EL ARRAY Y GUARDA EL NUMERO MAS CHICO.
+        // BUCLE FOREACH QUE RECORRE EL ARRAY Y GUARDA EL NUMERO MAS CHICO.
         for (float i : myFnumbers) {
             if (i <= minNum) {
                 minNum = i;
