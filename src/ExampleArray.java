@@ -16,6 +16,8 @@
 
 public class ExampleArray {
     public static void main(String[] args) {
-        
+        // ARRAY LITERAL
+        float[] myFnumbers = {14, 28, 15, 89, 46, 25, 94, 33, 82, 11, 37, 59, 68, 27, 16, 45, 24, 33, 72, 51};
+
     }
 }
