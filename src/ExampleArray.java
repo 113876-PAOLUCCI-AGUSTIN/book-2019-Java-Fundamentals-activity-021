@@ -22,15 +22,15 @@ public class ExampleArray {
         // VARIABLE QUE ALMACENARÁ EL NUMERO MAS CHICO.
         float minNum = myFnumbers[0];
 
-        // FOR QUE RECORRE EL ARRAY Y GUARDA EL NUMERO MAS CHICO.
-        for (float i : myFnumbers) {
-            if (i <= minNum) {
-                minNum = i;
+        // BUBLE FOR QUE RECORRE EL ARRAY.
+        for (int i = 0; i < myFnumbers.length; i++) {
+            if (myFnumbers[i] < minNum) {
+                minNum = myFnumbers[i];
             }
         }
 
         //  OUTPUT.
-        System.out.println("The minimum float is: " +minNum);
-        
+        System.out.println("The lowest number in the array is " + minNum);
+
     }
 }
