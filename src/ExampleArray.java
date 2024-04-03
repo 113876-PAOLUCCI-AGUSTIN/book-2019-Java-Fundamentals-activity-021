@@ -19,5 +19,15 @@ public class ExampleArray {
         // ARRAY LITERAL
         float[] myFnumbers = {14, 28, 15, 89, 46, 25, 94, 33, 82, 11, 37, 59, 68, 27, 16, 45, 24, 33, 72, 51};
 
+        // VARIABLE QUE ALMACENARÁ EL NUMERO MAS CHICO.
+        float minNum = myFnumbers[0];
+
+        // FOR QUE RECORRE EL ARRAY Y GUARDA EL NUMERO MAS CHICO.
+        for (float i : myFnumbers) {
+            if (i <= minNum) {
+                minNum = i;
+            }
+        }
+        
     }
 }
