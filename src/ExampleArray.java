@@ -19,18 +19,19 @@ public class ExampleArray {
         // ARRAY LITERAL
         float[] myFnumbers = {14, 28, 15, 89, 46, 25, 94, 33, 82, 11, 37, 59, 68, 27, 16, 45, 24, 33, 72, 51};
 
-        // VARIABLE QUE ALMACENARÁ EL NUMERO MAS CHICO.
-        float minNum = myFnumbers[0];
+        //  OUTPUT.
+        System.out.println("The minimum float is: " + obtenerNumeroMasChico(myFnumbers));
+    }
 
+    public static float obtenerNumeroMasChico(float[] myArr){
+        // VARIABLE QUE ALMACENARÁ EL NUMERO MAS CHICO.
+        float minNum = myArr[0];
         // BUCLE FOREACH QUE RECORRE EL ARRAY Y GUARDA EL NUMERO MAS CHICO.
-        for (float i : myFnumbers) {
+        for (float i : myArr) {
             if (i <= minNum) {
                 minNum = i;
             }
         }
-
-        //  OUTPUT.
-        System.out.println("The minimum float is: " +minNum);
-        
+        return minNum;
     }
 }
