@@ -28,6 +28,9 @@ public class ExampleArray {
                 minNum = i;
             }
         }
+
+        //  OUTPUT.
+        System.out.println("The minimum float is: " +minNum);
         
     }
 }
